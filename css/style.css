@@ -1,0 +1,146 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header__alert {
+  display: flex;
+  justify-content: center;
+  height: 64px;
+  background: #FBE2E2;
+  width: 100%;
+  margin: 0 auto;
+}
+.header__alert img {
+  width: 22px;
+  height: 22px;
+  margin: auto 8px;
+}
+
+.alert__text {
+  display: flex;
+  margin: auto 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+.alert__text a {
+  text-decoration: none;
+  color: blue;
+}
+
+.header__container {
+  display: flex;
+  justify-content: center;
+}
+
+.part1 {
+  background-image: url(../img/div.png);
+  width: 1240px;
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+}
+.part1 .title__settings {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.part1 h1 {
+  font-weight: 400;
+  margin: 0 auto;
+  font-size: 32px;
+  line-height: 47px;
+  /* or 146% */
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+.part1 h2 {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* or 140% */
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  width: 526px;
+}
+.part1 .buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  align-items: center;
+}
+.part1 .buttons .buttons-div_two {
+  display: flex;
+  width: 129.19px;
+  height: 30px;
+  background: #FF5500;
+  border: 1px solid #FF5500;
+  border-radius: 3px;
+  /* Inside auto layout */
+}
+.part1 .one {
+  display: block;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 74.72px;
+  height: 30px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.part1 .two {
+  text-decoration: none;
+  color: white;
+  margin: auto auto;
+}
+.part1 .three {
+  text-decoration: none;
+  color: white;
+}
+.part1 .buttons-div_one, .part1 .buttons-div_two, .part1 .buttons-div_three {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.part1 .buttons-div_one:hover {
+  background-color: darkgray;
+}
+.part1 .buttons-div_two:hover {
+  background-color: darkorange;
+}
+.part1 .three:hover {
+  color: #FF5500;
+}
+.part1 .button-div_four:hover {
+  background-color: darkorange;
+}
+.part1 .button-div_four {
+  width: 210px;
+  height: 46px;
+  background: #FF5500;
+  border: 1px solid #FF5500;
+  border-radius: 3px;
+  display: flex;
+  margin: 30px auto;
+}
+.part1 .button-div_four .four {
+  text-decoration: none;
+  color: white;
+  margin: auto auto;
+}
+
+/*# sourceMappingURL=style.css.map */
